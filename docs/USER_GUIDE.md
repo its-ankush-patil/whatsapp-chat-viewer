@@ -2,6 +2,9 @@
 
 Everything you need to go from "I have a WhatsApp chat" to "I have a beautiful screenshot".
 
+> [!TIP]
+> **Live Web App:** You can access and run the viewer directly in your browser at **[https://its-ankush-patil.github.io/whatsapp-chat-viewer/](https://its-ankush-patil.github.io/whatsapp-chat-viewer/)** without cloning or installing any local software.
+
 **Contents**
 
 1. [Exporting a chat from WhatsApp](#1-exporting-a-chat-from-whatsapp)

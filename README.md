@@ -20,6 +20,11 @@ Runs entirely inside your browser with zero server uploads, sub-millisecond in-c
 
 </div>
 
+> [!TIP]
+> **🚀 Try it instantly in your browser (no install needed):**  
+> **[Launch Live WhatsApp Chat Viewer](https://its-ankush-patil.github.io/whatsapp-chat-viewer/)**  
+> *100% private & client-side. Zero server uploads. Built-in sample chats included.*
+
 ---
 
 ## Overview
@@ -99,7 +104,19 @@ stateDiagram-v2
 
 ## Getting Started
 
-### Prerequisites
+### 🌐 Instant Online Access (Zero Setup)
+
+You don't need to install anything to use WhatsApp Chat Viewer. Simply open the live web app in any modern browser:
+
+👉 **[https://its-ankush-patil.github.io/whatsapp-chat-viewer/](https://its-ankush-patil.github.io/whatsapp-chat-viewer/)**
+
+It runs 100% client-side in your browser, processes all archives locally, and includes built-in sample chats so you can test it immediately.
+
+---
+
+### Local Installation & Development
+
+#### Prerequisites
 
 - **Node.js**: Version `20.0.0` or higher (verified on Node `24.x`).
 - **Package Manager**: `npm` (bundled with Node.js).
