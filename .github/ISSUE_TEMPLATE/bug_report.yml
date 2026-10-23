@@ -1,0 +1,41 @@
+name: Bug Report
+description: File a bug report or parsing error for WhatsApp Chat Viewer
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting an issue! Please ensure you do not share private credentials or sensitive personal messages. You can anonymize timestamps and names in your example.
+  - type: textarea
+    id: description
+    attributes:
+      label: Bug Description
+      description: A clear and concise description of what the bug is.
+    validations:
+      required: true
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Export Platform
+      options:
+        - iOS (iPhone / iPad)
+        - Android
+        - Mixed / Unknown
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction-sample
+    attributes:
+      label: Anonymized Sample Line(s)
+      description: Provide 1-3 lines from the exported `.txt` file showing the parsing issue.
+      render: text
+    validations:
+      required: false
+  - type: textarea
+    id: environment
+    attributes:
+      label: Browser & Environment
+      description: e.g. Chrome 124 on macOS, Safari on iOS 17, Edge on Windows 11
+    validations:
+      required: true
