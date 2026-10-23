@@ -1,0 +1,42 @@
+/**
+ * Demo chat (Android format) + two bundled photos, so the app can be tried
+ * without an export. Photos live in /public/sample.
+ */
+export const SAMPLE_CHAT_NAME = 'WhatsApp Chat with Maya.txt'
+
+export const SAMPLE_MEDIA = ['IMG-20231023-WA0001.jpg', 'IMG-20231024-WA0002.jpg']
+
+export const SAMPLE_CHAT = `23/10/2023, 09:58 - Messages and calls are end-to-end encrypted. No one outside of this chat, not even WhatsApp, can read or listen to them.
+23/10/2023, 10:15 - Maya: Hey! Did you see the photos from the weekend? 😍
+23/10/2023, 10:15 - Maya: IMG-20231023-WA0001.jpg (file attached)
+Look at that sunset!!
+23/10/2023, 10:17 - You: Wow, *stunning* 🌅
+I'm still thinking about that hike
+23/10/2023, 10:17 - You: We should plan the next one soon
+Maybe _next month_?
+23/10/2023, 10:18 - Maya: Yes please! Here's the trail we found: https://www.alltrails.com
+23/10/2023, 10:19 - Maya: This message was deleted
+23/10/2023, 10:20 - You: Perfect, booking it now ✅ <This message was edited>
+24/10/2023, 08:02 - Maya: Good morning! ☕
+24/10/2023, 08:03 - Maya: IMG-20231024-WA0002.jpg (file attached)
+24/10/2023, 08:05 - You: Morning! Coffee first, then logistics 😄
+24/10/2023, 08:06 - Maya: Deal.
+`
+
+/** Builds File objects for the demo (text + bundled photos). Photos are optional. */
+export async function loadSampleFiles() {
+  const files = [new File([SAMPLE_CHAT], SAMPLE_CHAT_NAME, { type: 'text/plain' })]
+  const base = import.meta.env.BASE_URL
+  const photos = await Promise.all(
+    SAMPLE_MEDIA.map(async (name) => {
+      try {
+        const res = await fetch(`${base}sample/${name}`)
+        if (!res.ok) return null
+        return new File([await res.blob()], name, { type: 'image/jpeg' })
+      } catch {
+        return null
+      }
+    }),
+  )
+  return [...files, ...photos.filter(Boolean)]
+}

@@ -1,0 +1,21 @@
+01/11/2023, 09:00 - Messages and calls are end-to-end encrypted. No one outside of this chat, not even WhatsApp, can read or listen to them.
+01/11/2023, 09:01 - Maya: Plain message
+01/11/2023, 09:02 - You: Multi-line message:
+- line one
+- line two
+
+(after a blank line)
+01/11/2023, 09:03 - Maya: Formatting: *bold* _italic_ ~strike~ `mono` and a link https://example.com/path?x=1&y=2
+01/11/2023, 09:04 - Maya: This message was deleted
+01/11/2023, 09:05 - You: You deleted this message
+01/11/2023, 09:06 - You: Fixed the typo <This message was edited>
+01/11/2023, 09:07 - Maya: <Media omitted>
+01/11/2023, 09:08 - Maya: IMG-DOES-NOT-EXIST.jpg (file attached)
+This attachment was not uploaded → placeholder
+01/11/2023, 09:09 - Maya: STK-20231101-WA0004.webp (file attached)
+01/11/2023, 09:10 - Maya: PTT-20231101-WA0005.opus (file attached)
+01/11/2023, 09:11 - Maya: Contract.pdf (file attached)
+01/11/2023, 09:12 - Maya: Time check: it is 10:15 now, see you at 11:30
+01/11/2023, 09:13 - You: Emoji only 😂😂😂
+01/11/2023, 09:14 - Maya: Missed voice call
+01/11/2023, 09:15 - Maya: location: https://maps.google.com/?q=52.52,13.405
