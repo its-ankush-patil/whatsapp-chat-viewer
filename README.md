@@ -7,6 +7,7 @@ Runs entirely inside your browser with zero server uploads, sub-millisecond in-c
 
 [![release: v1.1.0](https://img.shields.io/badge/release-v1.1.0-25D366?style=flat-square&logo=whatsapp&logoColor=white)](CHANGELOG.md)
 [![Live Demo](https://img.shields.io/badge/demo-live%20app-0070f3?style=flat-square&logo=googlechrome&logoColor=white)](https://its-ankush-patil.github.io/whatsapp-chat-viewer/)
+[![website views](https://hits.sh/its-ankush-patil.github.io/whatsapp-chat-viewer.svg?view=today-total&style=flat-square&label=views&color=0070f3)](https://hits.sh/its-ankush-patil.github.io/whatsapp-chat-viewer/)
 [![build: passing](https://img.shields.io/badge/build-passing-10b981?style=flat-square&logo=githubactions&logoColor=white)](package.json)
 [![tests: 29 passing](https://img.shields.io/badge/tests-29%20passing-10b981?style=flat-square&logo=node.js&logoColor=white)](test/parser.test.js)
 [![privacy: 100% client-side](https://img.shields.io/badge/privacy-100%25%20client--side-075e54?style=flat-square)](docs/USER_GUIDE.md#privacy)
